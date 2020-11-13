@@ -1,0 +1,150 @@
+{
+  "phim": [
+    {
+      "maphim": 1,
+      "tenphim": "Người Nhện Xa Nhà",
+      "hinhanh": "b",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C18",
+      "diem": 10,
+      "trangthai": 1
+    },
+    {
+      "maphim": 2,
+      "tenphim": "Trò Chơi Kì Ảo",
+      "hinhanh": "c",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C18",
+      "diem": 8,
+      "trangthai": 2
+
+    },
+    {
+      "maphim": 3,
+      "tenphim": "Your Name",
+      "hinhanh": "d",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C15",
+      "diem": 6,
+      "trangthai": 1
+
+    },
+    {
+      "maphim": 4,
+      "tenphim": "DEADPOOL 2",
+      "hinhanh": "e",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C10",
+      "diem": 3,
+      "trangthai": 1
+
+    },
+    {
+      "maphim": 5,
+      "tenphim": "Thành Phố Chim Ưng",
+      "hinhanh": "f",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C17",
+      "diem": 9,
+      "trangthai": 1
+    },
+    {
+      "maphim": 5,
+      "tenphim": "Cuộc Phiêu Lưu Quả Lê",
+      "hinhanh": "g",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C17",
+      "diem": 9,
+      "trangthai": 2
+    },
+    {
+      "maphim": 5,
+      "tenphim": "Siêu Thú Cuồng Nộ",
+      "hinhanh": "h",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C17",
+      "diem": 9,
+      "trangthai": 2
+    },
+    {
+      "maphim": 5,
+      "tenphim": "Ngôi Đền Kì Quái 2",
+      "hinhanh": "i",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C17",
+      "diem": 9,
+      "trangthai": 1
+    },
+    {
+      "maphim": 5,
+      "tenphim": "Bí Kíp Luyện Rồng",
+      "hinhanh": "k",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C17",
+      "diem": 9,
+      "trangthai": 2
+    },
+    {
+      "maphim": 5,
+      "tenphim": "Trái Tim Quái Vật",
+      "hinhanh": "p",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C17",
+      "diem": 9,
+      "trangthai": 2
+    },
+    {
+      "maphim": 5,
+      "tenphim": "THE CROODS 2: A NEW AGE",
+      "hinhanh": "y",
+      "noidung":"nguoi nhen du day",
+      "daodien": "Hai Ba",
+      "dienvien": "Perdfn",
+      "theloai":"Viễn Tưởng",
+      "trailer": "fsafsadfsd",
+      "tuoi": "C17",
+      "diem": 9,
+      "trangthai": 2
+    }
+  ]
+}

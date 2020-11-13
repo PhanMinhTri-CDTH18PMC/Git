@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity_chitiet.tabthongtin">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/c"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tvtenphim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Bí Kiếp Luyện Rồng 2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.483"
+                    app:layout_constraintStart_toEndOf="@+id/img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tevview"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thể Loại :"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvtheloai"
+                    app:layout_constraintEnd_toEndOf="@+id/tevview1"
+                    app:layout_constraintTop_toTopOf="@+id/tvtheloai" />
+
+                <TextView
+                    android:id="@+id/tevview1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Độ Tuổi :"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvdotuoi"
+                    app:layout_constraintStart_toEndOf="@+id/img"
+                    app:layout_constraintTop_toTopOf="@+id/tvdotuoi"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/tvtheloai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Phiêu Lưu"
+                    app:layout_constraintStart_toStartOf="@+id/tvdotuoi"
+                    app:layout_constraintTop_toBottomOf="@+id/tvtenphim" />
+
+                <TextView
+                    android:id="@+id/tvdotuoi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:text="C16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.161"
+                    app:layout_constraintStart_toEndOf="@+id/tevview1"
+                    app:layout_constraintTop_toBottomOf="@+id/tvtheloai" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Điểm :"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvdiem"
+                    app:layout_constraintEnd_toEndOf="@+id/tevview1"
+                    app:layout_constraintTop_toTopOf="@+id/tvdiem" />
+
+                <TextView
+                    android:id="@+id/tvdiem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="10Đ"
+                    app:layout_constraintStart_toStartOf="@+id/tvdotuoi"
+                    app:layout_constraintTop_toBottomOf="@+id/tvdotuoi" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:text="Đạo Diễn :"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvdaodien"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tvdaodien"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diễn Viên :"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvdienvien"
+                    app:layout_constraintEnd_toEndOf="@+id/textView9"
+                    app:layout_constraintTop_toTopOf="@+id/tvdienvien" />
+
+                <TextView
+                    android:id="@+id/tvdaodien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="16dp"
+                    android:text="ABC"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvdienvien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="CBD"
+                    app:layout_constraintEnd_toEndOf="@+id/tvdaodien"
+                    app:layout_constraintTop_toBottomOf="@+id/tvdaodien" />
+
+                <TextView
+                    android:id="@+id/tvmota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:text="Trong chuyến đi chơi cùng bà, một cậu bé 7 tuổi vô tình lọt vào hội nghị của các phù thủy và bị Phù Thủy Tối Thượng biến thành chuột bằng một loại thuốc đặc biệt. Đây cũng chính là chất độc ả định dùng để biến tất cả trẻ em thành loài gặm nhấm. Cùng với bà mình, cậu bé phải tìm mọi cách trở lại hình dạng thật và đánh bại âm mưu của binh đoàn Phù Thủy.Trong chuyến đi chơi cùng bà, một cậu bé 7 tuổi vô tình lọt vào hội nghị của các phù thủy và bị Phù Thủy Tối Thượng biến thành chuột bằng một loại thuốc đặc biệt. Đây cũng chính là chất độc ả định dùng để biến tất cả trẻ em thành loài gặm nhấm. Cùng với bà mình, cậu bé phải tìm mọi cách trở lại hình dạng thật và đánh bại âm mưu của binh đoàn Phù Thủy."
+                    app:layout_constraintTop_toBottomOf="@+id/tvdienvien"
+                    tools:layout_editor_absoluteX="71dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
